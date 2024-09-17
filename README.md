@@ -72,5 +72,26 @@ Bootstrap 5 互動視窗(Modal)配置畫面。
 企劃書：創作理念發想、前言和市場分析彙整與撰寫
 資料庫建置與彙整、生成資料表內容
 
+### 簡單頁面呈現
+
+- 首頁功能
+
+![500x250_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%8D%B3%E6%99%82%E8%A8%82%E5%96%AE%E8%B3%87%E8%A8%8A.png)
+
+![500x330_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%89%8D%E9%80%B1%E8%A9%95%E8%AB%96%E5%88%86%E6%9E%90.png)
+
+![700x248_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E7%B5%B1%E8%A8%88%E5%9C%96%E8%A1%A8.png)
+
+
+- 菜單管理
+
+![650x350_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E8%8F%9C%E5%96%AE%E7%AE%A1%E7%90%86%E9%A0%81%E9%9D%A2.png)
+
+
+- 店家資訊 & 網頁前端配置
+
+![640x336_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%BA%97%E5%AE%B6%E8%B3%87%E8%A8%8A%E9%A0%81%E9%9D%A2%E8%88%87%E7%B6%B2%E9%A0%81%E9%85%8D%E7%BD%AE.png)
+
+
 ## 附註
 PowerPoint投影片放映可呈現各頁面GIF動圖。
