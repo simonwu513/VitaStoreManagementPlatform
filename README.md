@@ -14,7 +14,7 @@
 
 - **當日訂單即時資訊和營收統計**
 
-[首頁圖表 - 影片連結](https://youtu.be/uphOwXcPf-c)
+        [首頁圖表 - 影片連結](https://youtu.be/uphOwXcPf-c)
 
 今日訂單資訊、本週新進評論超連結透過LocalStorage可連進訂單管理、評論管理頁面並篩選特定資料。
 
@@ -23,7 +23,7 @@
 
 - **菜單管理：新增、修改、下架商品和商品類別**
 
-[蔡單管理](https://youtu.be/Dk875pWmHYg)
+        [蔡單管理 - 影片連結](https://youtu.be/Dk875pWmHYg)
 
 ASP .NET Core 實作 CRUD 功能。
 
@@ -36,7 +36,7 @@ Bootstrap 5 互動視窗(Modal)配置畫面。
 
 - **店家資訊管理、暫停接單功能、響應式設計**
 
-[店家資訊&其他功能 - 影片連結](https://youtu.be/iZWpT5HGqZ4)
+      [店家資訊&其他功能 - 影片連結](https://youtu.be/iZWpT5HGqZ4)
 
 店家資訊修改時，前端表單驗證。
 
