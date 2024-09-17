@@ -23,7 +23,7 @@
 
 - **菜單管理：新增、修改、下架商品和商品類別**
 
-[蔡單管理 - 影片連結](https://youtu.be/Dk875pWmHYg)
+[菜單管理 - 影片連結](https://youtu.be/Dk875pWmHYg)
 
 ASP .NET Core 實作 CRUD 功能。
 
