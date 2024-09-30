@@ -1,0 +1,70 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+@section MyStyle {
+    <style>
+        .error-container{
+            margin-top: 50px;
+            width: 80%;
+         }
+    </style>
+}
+
+
+<h1 class="text-center">發送請求失敗</h1>
+
+<div class="error-container">
+    <div class="d-grid gap-2 mx-auto">
+
+    
+        <div>
+            @{
+                if (Model.ErrorMessage != null)
+                {            
+                <h3>錯誤訊息：<strong class="text-danger">@Model.ErrorMessage</strong></h3>                          
+                }
+            }
+
+            @{
+                if (Model.ErrorItems.Count > 0)
+                {
+                    <h3>錯誤項目：</h3>
+                    <ul class="list-unstyled">
+                        @foreach (var item in Model.ErrorItems)
+                        {
+                            <li class="ms-5">@item</li>
+                        }
+                    </ul>
+                }
+            }
+        </div>
+    
+
+    @if (Model.ShowRequestId)
+    {
+        <div>
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </div>
+    }
+    </div>
+    <div class="error-resolution">
+        @{
+            if (Model.ErrorResolution != null)
+            {
+                <h3>解決方式</h3>
+                <p class="ms-5">@Model.ErrorResolution</p>
+            }
+
+        }
+    </div>
+    <buttom class="btn btn-primary" onclick="history.go(-1);">返回上一頁</buttom>
+</div>
+
+
+
+
+
+
+
+

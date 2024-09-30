@@ -1,0 +1,272 @@
+﻿@section MyStyle{
+    <style>
+       .btn-current-page {
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            border-radius: 0%;
+            padding: 7px 9px 7px 9px;
+       }
+
+
+      
+    </style>
+}
+<p> @ViewData["todayDate"]</p>
+<h1>
+    今天網路訂單
+</h1>
+
+<div class="table-responsive ">
+<table class="table table-striped table-hover accordion">
+    <thead>
+        <tr>
+                <th scope="col">
+                #
+            </th>
+                <th scope="col">
+                訂單編號
+            </th>
+                <th scope="col">
+                    客戶名稱
+                </th>
+                <th scope="col">
+                下單時間
+            </th>
+                <th scope="col">
+                付款方式
+            </th>
+                <th scope="col">
+                取貨方式
+            </th>
+                <th scope="col">
+                總金額
+            </th>
+                <th scope="col">
+                目前訂單狀態
+            </th>
+                <th scope="col">訂單操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var order in Model)
+            {
+                                            <tr>
+                                                <th scope="row" data-bs-toggle="collapse" data-bs-target="#r@(order.OrderId)">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                                    </svg>
+                                                </th>
+                                                <td class="align-middle">
+                                                    @order.OrderId
+                                                </td>
+                                                <td class="align-middle">
+                                                        @order.CustomerName
+                                                </td>
+                                                <td class="align-middle">
+                                                        @order.OrderTime.ToString("HH:mm:ss")
+                                                    </td>
+                                                <td class="align-middle">
+                                                        @(order.OrderPayment ? "linepay" : "現金")
+                                                    </td>
+                                                <td class="align-middle">
+                                                        @(order.OrderDeliveryVia ? "外送" : "自取")
+                                                    </td>
+                                                <td class="align-middle">
+                                                        @order.TotalPrice.ToString("C0")
+                                                    </td>
+                                                <td class="align-middle">
+                                                        @{
+                                    if (order.CustomerOrderStatus == 0)
+                                    {
+                                                                                        <text>待接單</text>
+                                    }
+                                    else if (order.CustomerOrderStatus == 1)
+                                    {
+                                                                                        <text>製作中</text>
+                                    }
+                                    else if (order.CustomerOrderStatus == 2)
+                                    {
+                                                                                        <text>@(order.OrderDeliveryVia ? "配送中" : "等待自取")</text>
+                                    }
+                                    else if (order.CustomerOrderStatus == 3)
+                                    {
+                                                                                        <text>已完成</text>
+                                    }
+                                    else if (order.CustomerOrderStatus == 4)
+                                    {
+                                                                                        <text>已退單</text>
+                                    }
+                                    else if (order.CustomerOrderStatus == 5)
+                                    {
+                                                                                        <text>已取消</text>
+                                    }
+                                                        }
+                                                    </td>
+                                                <td class="align-middle">
+                                                            @{
+                                        if (order.CustomerOrderStatus == 0)
+                                        {
+                                            <text>
+                                                <span>
+                                            <form method="post" action="/Home/Accept" style="display:inline-block !important">
+                                                    <input type="hidden" name="orderId" value="@order.OrderId" />
+                                                    <input  class="btn btn-primary btn-sm" value="接單" type="submit" />
+                                                </form>
+                                            <form method="post" action="/Home/Cancel" style="display:inline-block !important">
+                                                    <input type="hidden" name="orderId" value="@order.OrderId" />
+                                                    <input class="btn btn-danger btn-sm" value="退單" type="submit" />
+                                                </form>
+                                               </span>
+                                             </text>
+                                        }
+                                        else if (order.CustomerOrderStatus == 1 || order.CustomerOrderStatus == 2) { 
+                                              <text>
+                                                 <span>
+                                                    <button type="button" class="btn btn-info btn-sm btn-deliver" data-order-id="@order.OrderId" data-customer-id="@order.CustomerId" @(order.CustomerOrderStatus == 1 ?"":"disabled") > 出餐</button>
+                                                    <button type="button" class="btn btn-success btn-sm btn-finish" data-order-id="@order.OrderId" data-customer-id="@order.CustomerId" @(order.CustomerOrderStatus == 2 ? "" : "disabled")>完成</button>
+                                                 </span>
+                                              </text>
+                                            }
+                                       
+
+                                                }
+
+                                            </td>
+                                            </tr>
+                                            <tr class="collapse accordion-collapse" id="r@(order.OrderId)" data-bs-parent=".table">
+                                                <td colspan="8"> 
+                                                <div class="row">
+                                                        <div class="col-6">
+                                                            <span><b>訂購商品：</b>@order.ProductQantityText</span>
+                                                            <br/>
+                                                            <span><b>客戶電話：</b>@order.CustomerCellPhone</span>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <span>
+                                                            @{
+                                        if (order.OrderDeliveryVia) {
+                                                                                                <text><b>寄送地址：</b>@order.OrderAddress</text>
+                                                                                                <br />
+                                            }                                    
+                                                            }
+                                                           
+                                                                <b>發票：</b>@{
+                                            if (order.OrderUniformInvoiceVia == 0) {
+                                                                                                <text>無</text>
+                                            }
+                                            else if (order.OrderUniformInvoiceVia == 1) {
+                                                                                                <text>紙本</text>
+                                            }
+                                            else if (order.OrderUniformInvoiceVia == 2) {
+                                                                                                    <text>電子</text>
+                                                                                                    @order.OrderEinvoiceNumber
+                                            }
+                                                                }
+                                                               </span>
+                                                        </div>
+
+                                                </div>
+                                                    
+                                                </td>
+                                            </tr>
+
+                }
+                
+            }
+       
+
+    </tbody>
+</table>
+    @{
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+<div class="text-center">
+    <a href="/Home/Login?pageNumber=@(Model.PageIndex - 1)" class="btn btn-primary  @prevDisabled">
+        上一頁
+    </a>
+    <span><span class="btn-current-page">@(Model.PageIndex)</span> of @(Model.TotalPages) </span>
+    <a href="/Home/Login?pageNumber=@(Model.PageIndex + 1)" class="btn btn-warning  @nextDisabled">
+        下一頁
+    </a>
+
+</div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+           
+            $(".btn-deliver").click(function () {
+                var orderId = $(this).data("order-id");
+                var customerId = $(this).data("customer-id");
+                var status = 2;
+                
+                fetch("/Home/Deliver", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ orderId: orderId })
+                })
+                    .then(res => res.json ())
+                    .then(response => {
+                        if (response.success) { 
+                            $(this).prop("disabled", true);
+                            $(this).next().prop("disabled", false);
+
+                            alert(response.message);
+                            //singalR發送
+
+                            connection.invoke("SwitchOrderStatus", customerId, orderId, status)
+                            .catch(function (err) {
+                                return console.log(err.toString());
+                            });
+                    } 
+                        else {
+                            alert(response.message);
+                        }
+                    })
+                    .catch(error => {
+                        alert(`系統異常，請稍後再試；${error.toString()}`)
+                });
+            });
+
+            $(".btn-finish").click(function () {
+                var orderId = $(this).data("order-id");
+                var customerId = $(this).data("customer-id");
+                var status = 3;
+
+                fetch("/Home/Finish", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ orderId: orderId })
+                })
+                    .then(res => res.json())
+                    .then(response => {
+                        if (response.success) {
+                            $(this).prop("disabled", true);
+                            alert(response.message);
+                            //singalR發送
+
+                            connection.invoke("SwitchOrderStatus", customerId, orderId, status)
+                                .catch(function (err) {
+                                    return console.log(err.toString());
+                                });
+                        }
+                        else {
+                            alert(response.message);
+                        }
+                    })
+                    .catch(error => {
+                        alert(`系統異常，請稍後再試；${error.toString()}`)
+                    });
+            });
+
+        });
+    </script>
+}

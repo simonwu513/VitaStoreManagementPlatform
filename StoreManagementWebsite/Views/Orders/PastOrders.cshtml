@@ -1,0 +1,339 @@
+﻿@section MyStyle {
+    <style>
+        .btn-current-page {
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            border-radius: 0%;
+            padding: 7px 9px 7px 9px;
+        }
+
+    </style>
+}
+<p>歡迎回來，@ViewData["StoreName"]！</p>
+<h1>
+    過往訂單紀錄
+</h1>
+
+<div class="table-responsive ">
+    <form href="/Orders/PastOrders" method="get">
+        <div class="form-actions no-color d-flex justify-content-start">
+            <input type="text" name="searchStringForOrderInfo" value="@ViewData["currentFilterForOrderInfo"]" placeholder="搜尋客戶名稱、訂單編號、商品與數量" class="form-control" style="width: 300px" />
+            <input type="text" name="searchStringForCustomerReview" value="@ViewData["currentFilterForCustomerReview"]" placeholder="搜尋客戶或店家回覆" class="form-control  ms-2" style="width: 300px" />
+            <div class="form-group ms-2" style="width: 200px">
+                <select class="form-select" id="ReviewRating" name="searchStringForReviewRating">
+                    <!option value="" @(ViewData["currentFilterReviewRating"] == null ? "selected" : "")>請選擇評分星級</!option>
+                    @{
+                        for(int i = 1; i <= 5; i++)
+                        {
+                                            <!option value="@i" @(ViewData["currentFilterReviewRating"]?.ToString() == i.ToString() ? "selected" : "") >@i 顆星</!option>
+                        }
+                    }
+                    <!option value="0" @(ViewData["currentFilterReviewRating"]?.ToString() == "0" ? "selected" : "")>尚未評分</!option>
+                </select>
+            </div>
+            <div class=" ms-2">
+                <input type="submit" value="搜尋" class="btn btn-success" /> |  <a href="/Orders/PastOrders" class="btn btn-warning">清除</a>
+            </div>
+        </div>
+    </form>
+    <table class="table table-striped table-hover accordion">
+        <thead>
+            <tr>
+                <th scope="col">
+                    #
+                </th>
+                <th scope="col">
+                    訂單編號
+                </th>
+                <th scope="col">
+                    客戶名稱
+                </th>
+                <th scope="col">
+                    訂單完成時間
+                </th>
+                <th scope="col">
+                    付款方式
+                </th>
+                <th scope="col">
+                    取貨方式
+                </th>
+                <th scope="col">
+                    總金額
+                </th>
+                <th scope="col">
+                    訂單狀態
+                </th>
+                <th scope="col">
+                    評分星級
+                </th>
+                <th scope="col">評論管理</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var order in Model)
+                {
+                                    <tr >
+                                        <th scope="row" data-bs-toggle="collapse" data-bs-target="#r@(order.OrderId)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                            </svg>
+                                        </th>
+                                        <td class="align-middle">
+                                            @order.OrderId
+                                        </td>
+                                        <td class="align-middle">
+                                            @order.CustomerName
+                                        </td>
+                                        <td class="align-middle">
+                                            @(order.CustomerOrderStatus == 4 || order.CustomerOrderStatus == 5 ? "退單/已取消" : @order.OrderFinishedTime.ToString("yyyy-MM-dd HH:mm:ss"))
+                                        </td>
+                                        <td class="align-middle">
+                                            @(order.OrderPayment ? "linepay" : "現金")
+                                        </td>
+                                        <td class="align-middle">
+                                            @(order.OrderDeliveryVia ? "外送" : "自取")
+                                        </td>
+                                        <td class="align-middle">
+                                            @order.TotalPrice.ToString("C0")
+                                        </td>
+                                        <td class="align-middle">
+                                            @{
+                                if (order.CustomerOrderStatus == 0)
+                                {
+                                                                    <text>待接單</text>
+                                }
+                                else if (order.CustomerOrderStatus == 1)
+                                {
+                                                                    <text>製作中</text>
+                                }
+                                else if (order.CustomerOrderStatus == 2)
+                                {
+                                                                    <text>@(order.OrderDeliveryVia ? "配送中" : "等待自取")</text>
+                                }
+                                else if (order.CustomerOrderStatus == 3)
+                                {
+                                                                    <text>已完成</text>
+                                }
+                                else if (order.CustomerOrderStatus == 4)
+                                {
+                                                                    <text>已退單</text>
+                                }
+                                else if (order.CustomerOrderStatus == 5)
+                                {
+                                                                    <text>已取消</text>
+                                }
+                                            }
+                                        </td>
+                                        <td class="align-middle">
+                                            @{
+                                if (order.ReviewRating == 0)
+                                {
+                                                                    <text>尚未評分</text>
+                                }
+                                else
+                                {
+                                                                    <text>@order.ReviewRating 顆星</text>
+                                }
+                                            }
+                                        </td>
+                                        <td class="align-middle">
+                                            @{
+                               
+                                                                        <span>
+                                                                    <button class="btn @(order.ReviewRating == 0 ? "btn-outline-primary" : "btn-primary") btn-sm btnViewCustomerReview" data-bs-toggle="modal" data-bs-target="#ViewCustomerReviewModal" @(order.ReviewRating == 0 ? "disabled" : "")>檢視</button>
+                                                                    <input type="hidden" name="ReviewId" value="@order.ReviewId" />
+                                                                    <input type="hidden" name="ReviewTime" value="@order.ReviewTime" />
+                                                                    <input type="hidden" name="ReviewContent" value="@order.ReviewContent" />
+                                                                    <input type="hidden" name="StoreReplyTime" value="@order.StoreReplyTime" />
+                                                                    <input type="hidden" name="StoreReplyContent" value="@order.StoreReplyContent" />
+                                                            <button class="btn @(( !(order.ReviewRating == 0)  && (order.StoreReplyContent == null || order.StoreReplyContent == "") )? "btn-success" : "btn-outline-success") btn-sm btnReplyCustomerReview"
+                                                                    data-bs-toggle="modal" data-bs-target="#ReplyCustomerReviewModal" @((!(order.ReviewRating == 0) && (order.StoreReplyContent == null || order.StoreReplyContent == "")) ? "" : "disabled")>
+                                                                        回覆
+                                                                    </button>
+                                                                        </span>
+                              
+                                              }
+                                        </td>
+                                    </tr>
+                                    <tr class="collapse accordion-collapse" id="r@(order.OrderId)" data-bs-parent=".table">
+                                        <td colspan="10">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <span><b>訂購商品：</b>@order.ProductQantityText</span>
+                                                    <br />
+                                                    <span><b>客戶電話：</b>@order.CustomerCellPhone</span>
+                                                </div>
+                                                <div class="col-6">
+                                                    <span>
+                                                        @{
+                                            if (order.OrderDeliveryVia)
+                                            {
+                                                                                <text><b>寄送地址：</b>@order.OrderAddress</text>
+                                                                                <br />
+                                            }
+                                                        }
+
+                                                        <b>發票：</b>@{
+                                            if (order.OrderUniformInvoiceVia == 0)
+                                            {
+                                                                                <text>無</text>
+                                            }
+                                            else if (order.OrderUniformInvoiceVia == 1)
+                                            {
+                                                                                <text>紙本</text>
+                                            }
+                                            else if (order.OrderUniformInvoiceVia == 2)
+                                            {
+                                                                                <text>電子</text>
+                                                                                @order.OrderEinvoiceNumber
+                                            }
+                                                        }
+                                                    </span>
+                                                </div>
+
+                                            </div>
+
+                                        </td>
+                                    </tr>
+
+                }
+
+            }
+
+
+        </tbody>
+    </table>
+    @{
+        var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+        var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+    }
+    <div class="text-center">
+        <a href="/Orders/PastOrders?pageNumber=@(Model.PageIndex - 1)&searchStringForOrderInfo=@ViewData["currentFilterForOrderInfo"]&searchStringForCustomerReview=@ViewData["currentFilterForCustomerReview"]&searchStringForReviewRating=@ViewData["currentFilterReviewRating"]"
+            class="btn btn-primary  @prevDisabled">
+            上一頁
+        </a>
+        <span><span class="btn-current-page">@(Model.PageIndex)</span> of @(Model.TotalPages) </span>
+        <a href="/Orders/PastOrders?pageNumber=@(Model.PageIndex + 1)&searchStringForOrderInfo=@ViewData["currentFilterForOrderInfo"]&searchStringForCustomerReview=@ViewData["currentFilterForCustomerReview"]&searchStringForReviewRating=@ViewData["currentFilterReviewRating"]"
+            class="btn btn-warning  @nextDisabled">
+            下一頁
+        </a>
+       
+    </div>
+</div>
+
+<!-- View Customer Review Modal -->
+<div class="modal fade" id="ViewCustomerReviewModal" tabindex="-1" aria-labelledby="ViewCustomerReviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ViewCustomerReviewModalLabel">評論檢視</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             
+                    <div class="mb-3">
+                        <label for="CustomerReviewModalContent" class="col-form-label" id="CustomerReviewModalContentLabel"></label>
+                        <textarea class="form-control" id="CustomerReviewModalContent" readonly></textarea>
+                    </div>
+                    <div class="mb-3">
+                    <label for="StoreReplyModalContent" class="col-form-label" id="StoreReplyModalContentLabel">店家回覆</label>
+                    <textarea class="form-control" id="StoreReplyModalContent" readonly></textarea>
+                    </div>
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉視窗</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Reply Customer Review Modal -->
+<div class="modal fade" id="ReplyCustomerReviewModal" tabindex="-1" aria-labelledby="ReplyCustomerReviewModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form action="/Orders/ReviewReply/" method="post" id="ReplyCustomerReviewForm" class="needs-validation" novalidate>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ReplyCustomerReviewModalLabel">評論檢視</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="ReplyCustomerReviewModalContent" class="col-form-label" id="ReplyCustomerReviewModalContentLabel"></label>
+                    <textarea class="form-control" id="ReplyCustomerReviewModalContent" readonly></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="ReplyStoreReviewModalContent" class="col-form-label">請輸入店家回覆內容</label>
+                    <textarea class="form-control" name="StoreReplyContent" id="ReplyStoreReviewModalContent" rows="3"></textarea>
+                    <div class="invalid-feedback">店家回覆內容不得為空</div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <input type="submit" class="btn btn-primary" id="btnReplyCustomerReview" value="回覆"/>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉視窗</button>
+            </div>
+       
+        </div>
+    </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+            $('.btnViewCustomerReview').on('click', function (event) {
+                var CustomerName = $(this).closest('tr').find('td:eq(1)').text();
+                var ReviewTime = $(this).closest('span').find('input[name="ReviewTime"]').val();
+                var ReviewContent = $(this).closest('span').find('input[name="ReviewContent"]').val();
+                var StoreReplyTime = $(this).closest('span').find('input[name="StoreReplyTime"]').val();
+                var StoreReplyContent = $(this).closest('span').find('input[name="StoreReplyContent"]').val();
+
+                $('#CustomerReviewModalContentLabel').text(CustomerName + " 於 " + ReviewTime + " 發表評論：");
+                $('#CustomerReviewModalContent').val(ReviewContent);
+
+                if (StoreReplyContent == null || StoreReplyContent == "") {
+                    $('#StoreReplyModalContent').val("尚未有回覆");
+                } else {
+                    $('#StoreReplyModalContentLabel').text( "店家於 " + StoreReplyTime + " 回覆：");
+                    $('#StoreReplyModalContent').val(StoreReplyContent);
+                }
+            });
+
+            $('.btnReplyCustomerReview').on('click', function (event) {
+                var CustomerName = $(this).closest('tr').find('td:eq(1)').text();
+                var ReviewTime = $(this).closest('span').find('input[name="ReviewTime"]').val();
+                var ReviewContent = $(this).closest('span').find('input[name="ReviewContent"]').val();
+
+                $('#ReplyCustomerReviewModalContentLabel').text(CustomerName + " 於 " + ReviewTime + " 發表評論：");
+                $('#ReplyCustomerReviewModalContent').val(ReviewContent);
+                $('#ReplyStoreReviewModalContent').closest('div').append('<input type="hidden" name="ReviewId" value="' + $(this).closest('span').find('input[name="ReviewId"]').val() + '">');
+            });
+
+            $('#ReplyCustomerReviewForm').on('submit', function (event) {
+                var allValidated  = true
+
+                if ($('#ReplyStoreReviewModalContent').val() == "" || $('#ReplyStoreReviewModalContent').val() == null) {
+                    $('#ReplyStoreReviewModalContent').removeClass('is-valid').addClass('is-invalid');
+                    allValidated = false;
+
+                    console.log($('#ReplyStoreReviewModalContent').val());
+                }
+
+                if (allValidated) {
+                    $('#ReplyCustomerReviewForm').addClass('was-validated');
+                    $('#ReplyCustomerReviewForm').submit();
+                } else {
+                    $('.invalid-feedback').show();
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+            })
+
+        });
+    </script>
+}

@@ -1,0 +1,47 @@
+﻿@{
+    var DataforBarPlotProduct = Newtonsoft.Json.JsonConvert.SerializeObject( ViewData["forBarPlotProduct"]);
+}
+@section MyStyle{
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+
+    </style>
+}
+
+<p>歡迎回來，@ViewData["StoreName"]！</p>
+<h2>前月統計報表</h2>
+<div id = "BarPlotProduct">  </div>
+<div id="LinePlotDaySales">  </div>
+
+
+
+@section Scripts{
+    <script></script>
+        <py-config>
+            packages =["matplotlib", "numpy"]
+       </py-config>
+
+<py-script>
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+data_for_bar_plot = @DataforBarPlotProduct
+product_names = [item['ProductName'] for item in data_for_bar_plot]
+product_totals = [item['ProductTotalAmount'] for item in data_for_bar_plot]
+plt.figure(figsize=(10, 6))
+plt.barh(product_names, product_totals, color='skyblue')
+plt.xlabel('Total Amount')
+plt.ylabel('Product Name')
+plt.title('Total Amount per Product')
+@* plt.tight_layout()
+plt.savefig(r'C:\ASP NET作品集\StoreManagementWebsite\StoreManagementWebsite\wwwroot\image\to\save\bar_plot.png')  # Save plot to a file *@
+display(fig, target="graph-area", append=False)
+# Close plot to release memory
+plt.close()
+</py-script>
+    
+           
+   
+}

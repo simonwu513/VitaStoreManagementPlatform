@@ -1,0 +1,80 @@
+﻿@{
+    var Customer = ViewData["Customer"] as Customer;
+}
+
+<div class="row justify-content-center">
+<h2>處理中的訂單</h2>
+<p>歡迎回來，@Customer.CustomerName！</p>       
+<span id="customerId" class="d-none">@Customer.CustomerId</span>
+    <div class="col-8">
+        <div class="card text-center">
+                <h5 class="card-header">
+                    @Model.StoreName
+                </h5>
+                <div class="card-body">
+                    @if( Model != null)
+{
+                        <div class="text-start mx-auto"style="width: 50%">
+                        <p class="card-text">下單時間：@Model.OrderTime</p>
+                        <p class="card-text">訂單狀態：<span class="text-success fw-bolder" id="orderStatusText">@Model.CustomerOrderStatus</span></p>
+                        <p class="card-text">訂單內容：@Model.ProductProductQantityText</p>
+                        <p class="card-text">總金額：@Model.TotalAmount</p>
+                        <p class="card-text">交貨：@Model.OrderDeliveryVia</p>
+                        @if (Model.OrderDeliveryVia == "外送")
+    {
+                            <p class="card-text">外送地址：@Model.OrderAddress</p>
+    }
+                        <p class="card-text">付款方式：@Model.OrderPayment</p>
+                        <p class="card-text">發票設定：@Model.OrderUniformInvoiceVia</p>
+                        @if (Model.OrderUniformInvoiceVia == "手機載具")
+    {
+                            <p class="card-text">手機載具：@Model.OrderEinvoiceNumber</p>
+    }
+                        <hr/>
+                        <p class="card-text">店家地址：@Model.StoreAddress</p>
+                        <p class="card-text">店家電話：@Model.StorePhoneNumber</p>
+                        </div>
+}
+else
+{
+                        <h5 class="card-title">尚無處理中訂單</h5>
+}
+                       
+                    
+                    
+                </div>
+                <div class="card-footer text-muted">
+                    如要查看已完成的訂單，請點選<a href="/Customers/CustomerPastOrder">訂單查詢</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            connection.on("ReceiveOrderStatus", function (customerId,orderId,status) {
+
+                if ($('#customerId').text() == customerId) {
+                    fetch(`/Customers/GetOrderStatus?orderId=${orderId}`, {
+                        method: 'GET'
+                    }).then(response => response.json())
+                        .then(function (response) {
+                            if (response.success) {
+                                $('#orderStatusText').text(response.data);
+                            } else {
+                                alert(response.message)
+                            }
+                        }
+                ).catch(function (error) {
+                    alert(error.message);
+                });
+                }
+            })
+        });
+</script>
+}

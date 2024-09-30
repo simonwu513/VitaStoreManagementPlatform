@@ -1,0 +1,1569 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\StoreManagementWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\StoreManagementWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Common\\300x300_default.png",
+      "PackagePath": "staticwebassets\\image\\Common\\300x300_default.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Common\\banner.png",
+      "PackagePath": "staticwebassets\\image\\Common\\banner.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Common\\google.png",
+      "PackagePath": "staticwebassets\\image\\Common\\google.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Common\\star-border.png",
+      "PackagePath": "staticwebassets\\image\\Common\\star-border.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Common\\star.png",
+      "PackagePath": "staticwebassets\\image\\Common\\star.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Common\\user.png",
+      "PackagePath": "staticwebassets\\image\\Common\\user.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\feedback_ps_1.png",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\feedback_ps_1.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\feedback_ps_2.png",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\feedback_ps_2.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\feedback_ps_3.png",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\feedback_ps_3.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\food_1.png",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\food_1.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\join_1.svg",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\join_1.svg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\join_2.svg",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\join_2.svg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\join_3.svg",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\join_3.svg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\JoinUs\\join_contact_bg.png",
+      "PackagePath": "staticwebassets\\image\\JoinUs\\join_contact_bg.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_10.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_10.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1042_法式舒肥嫩雞胸輕食餐.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1042_法式舒肥嫩雞胸輕食餐.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1043_法式舒肥豬菲力輕食餐.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1043_法式舒肥豬菲力輕食餐.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1044_法式煙燻櫻桃鴨胸輕食餐.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1044_法式煙燻櫻桃鴨胸輕食餐.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1046_日式炙燒鮭魚輕食餐.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1046_日式炙燒鮭魚輕食餐.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1047_法式舒肥牛板腱輕食餐.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1047_法式舒肥牛板腱輕食餐.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1049_舒肥嫩雞胸潛艇堡.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1049_舒肥嫩雞胸潛艇堡.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1051_煙燻櫻桃鴨胸潛艇堡.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1051_煙燻櫻桃鴨胸潛艇堡.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1053_舒肥牛板腱潛艇堡.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1053_舒肥牛板腱潛艇堡.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1054_水煮蛋.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1054_水煮蛋.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1055_毛豆.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1055_毛豆.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1057_杏鮑菇.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1057_杏鮑菇.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1058_鷹嘴豆.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1058_鷹嘴豆.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1059_秋葵.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1059_秋葵.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1060_韓式泡菜.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1060_韓式泡菜.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1061_冰心地瓜.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1061_冰心地瓜.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1062_藜麥五穀米.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1062_藜麥五穀米.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1063_義式冷麵.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1063_義式冷麵.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1064_南瓜濃湯.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1064_南瓜濃湯.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1065_舒肥嫩雞胸.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1065_舒肥嫩雞胸.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1066_舒肥豬菲力.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1066_舒肥豬菲力.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1067_櫻桃鴨胸.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1067_櫻桃鴨胸.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1068_北海道鮭魚.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1068_北海道鮭魚.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1069_薄鹽鯖魚.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1069_薄鹽鯖魚.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1070_鮮甜壽司蝦.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1070_鮮甜壽司蝦.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1071_舒肥牛板腱.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1071_舒肥牛板腱.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1072_美式咖啡.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1072_美式咖啡.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1073_拿鐵咖啡.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1073_拿鐵咖啡.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1077_莓果優格高蛋白飲.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1077_莓果優格高蛋白飲.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1078_香蕉堅果高蛋白飲.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1078_香蕉堅果高蛋白飲.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1079_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1079_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_108.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_108.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1080_cheeseChicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1080_cheeseChicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1081_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1081_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1082_spicyChicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1082_spicyChicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1083_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1083_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1084_veg.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1084_veg.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1085_mushroom.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1085_mushroom.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1086_protein.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1086_protein.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1087_xlChixken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1087_xlChixken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1088_xlSpicyChicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1088_xlSpicyChicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1089_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1089_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1090_duck.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1090_duck.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_11.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_11.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1104_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1104_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1105_spicy.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1105_spicy.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1106_beef.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1106_beef.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1107_pork.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1107_pork.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1108_soup.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1108_soup.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1109_sweetSoup.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1109_sweetSoup.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1110_salmonSoup.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1110_salmonSoup.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_118_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_118_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_119_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_119_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_12.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_12.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_120_chicken_meal_202x270.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_120_chicken_meal_202x270.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_121_pork_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_121_pork_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_122_beef_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_122_beef_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_124_fish_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_124_fish_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_125_fish_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_125_fish_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_126_veg_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_126_veg_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_129_soup.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_129_soup.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_138_greenTea.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_138_greenTea.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1396_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1396_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1397_pork.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1397_pork.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1398_fish.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1398_fish.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1399_fish.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1399_fish.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_139_blackTea.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_139_blackTea.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_14.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_14.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1401_taiProk.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1401_taiProk.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1402_salmon.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1402_salmon.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1403_steak.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1403_steak.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1406_sweetpotato.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1406_sweetpotato.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1407_egg.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1407_egg.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1408_rice.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1408_rice.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1409_veg.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1409_veg.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1411_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1411_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1413_fish.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1413_fish.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1416_taiPork.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1416_taiPork.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1417_fish.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1417_fish.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1418_salmon.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1418_salmon.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_1419_steak.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_1419_steak.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_141_JinXuanTea.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_141_JinXuanTea.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_142_Oolong.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_142_Oolong.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_143.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_143.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_144.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_144.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_145.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_145.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_147.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_147.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_148.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_148.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_149.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_149.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_15.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_15.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_150.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_150.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_152.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_152.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_153.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_153.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_155.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_155.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_167.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_167.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_168.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_168.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_169.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_169.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_170.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_170.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_171.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_171.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_173.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_173.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_176.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_176.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_177.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_177.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_180.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_180.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_198_pork_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_198_pork_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_202_fish_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_202_fish_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_203_fish_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_203_fish_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_204_veg_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_204_veg_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2066.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2066.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2067.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2067.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2070_Paradise_EP.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2070_Paradise_EP.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2072_步驟範例.PNG",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2072_步驟範例.PNG"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2073_ukraine war.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2073_ukraine war.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2079_linkedin手機版.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2079_linkedin手機版.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_2080_挪威烤鯖魚.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_2080_挪威烤鯖魚.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_216_tea.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_216_tea.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_217.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_217.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_218.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_218.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_219.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_219.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_220.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_220.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_221.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_221.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_223.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_223.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_224.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_224.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_225.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_225.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_226.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_226.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_238_fish&breast_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_238_fish&breast_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_239_fish&pig_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_239_fish&pig_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_240_steak_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_240_steak_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_241_squid_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_241_squid_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_244_fish_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_244_fish_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_247_chicken_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_247_chicken_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_250_breast_meal_600x650.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_250_breast_meal_600x650.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_251_doffPig_meal_600x321.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_251_doffPig_meal_600x321.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_252_pig_meal_600x485.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_252_pig_meal_600x485.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_253_leg_meal_600x485.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_253_leg_meal_600x485.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_254_fruit_meal_600x321.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_254_fruit_meal_600x321.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_269_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_269_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_270_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_270_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_271_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_271_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_272_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_272_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_273_pork_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_273_pork_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_274_pork_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_274_pork_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_275_beef_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_275_beef_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_276_beef_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_276_beef_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_27_parallel none.PNG",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_27_parallel none.PNG"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_27_pexels-chait-goli-2031767.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_27_pexels-chait-goli-2031767.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_290_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_290_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_291_pork_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_291_pork_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_292_breast_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_292_breast_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_294_chicken_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_294_chicken_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_295_fish_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_295_fish_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_296_chicken_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_296_chicken_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_297_fish_meal.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_297_fish_meal.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_3.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_3.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_329.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_329.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_33.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_33.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_330.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_330.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_331.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_331.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_333.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_333.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_334.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_334.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_336.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_336.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_337.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_337.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_338.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_338.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_339.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_339.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_347.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_347.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_348.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_348.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_349.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_349.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_35.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_35.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_351.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_351.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_353.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_353.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_354.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_354.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_355.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_355.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_356.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_356.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_357.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_357.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_358.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_358.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_360.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_360.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_361.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_361.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_381.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_381.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_385.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_385.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_386.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_386.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_387.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_387.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_388.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_388.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_389.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_389.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_391.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_391.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_392.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_392.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_394.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_394.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_4.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_4.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_400.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_400.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_415.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_415.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_42.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_42.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_421.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_421.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_422.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_422.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_429.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_429.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_43.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_43.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_430.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_430.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_433.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_433.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_434.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_434.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_435.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_435.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_436.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_436.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_438.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_438.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_44.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_44.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_447.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_447.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_452.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_452.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_453.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_453.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_454.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_454.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_455.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_455.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_456.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_456.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_457.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_457.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_459.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_459.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_46.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_46.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_461.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_461.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_47.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_47.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_48.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_48.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_49.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_49.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_5.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_5.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_50.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_50.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_562_椒香嫩烤辣雞腿.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_562_椒香嫩烤辣雞腿.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_563_岩漿起司烤嫩雞.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_563_岩漿起司烤嫩雞.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_565_香蒜黑椒巴沙魚.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_565_香蒜黑椒巴沙魚.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_566_熟成鹽麴豚菲力.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_566_熟成鹽麴豚菲力.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_567_匈牙利嫩烤松板豬.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_567_匈牙利嫩烤松板豬.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_568_墨西哥嫩雞胸.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_568_墨西哥嫩雞胸.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_569_台式香蒜嫩雞胸.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_569_台式香蒜嫩雞胸.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_570_日式照燒嫩雞腿.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_570_日式照燒嫩雞腿.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_572_蒜香椒鹽牛五花.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_572_蒜香椒鹽牛五花.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_574_香檸椒鹽台灣鯛.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_574_香檸椒鹽台灣鯛.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_575_日式蒲燒鯛魚.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_575_日式蒲燒鯛魚.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_576_炙焰檸香鮭魚菲力.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_576_炙焰檸香鮭魚菲力.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_577_韓式泡菜梅花豬.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_577_韓式泡菜梅花豬.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_578_田園舒活.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_578_田園舒活.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_579_燒烤蔬食菇菇.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_579_燒烤蔬食菇菇.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_580_海陸百匯.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_580_海陸百匯.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_6.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_6.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_606_美粒果蘇打.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_606_美粒果蘇打.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_607_OOHA氣泡飲.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_607_OOHA氣泡飲.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_609_taiPork.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_609_taiPork.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_610_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_610_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_611_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_611_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_612_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_612_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_613_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_613_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_614_chicken.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_614_chicken.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_615_pork.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_615_pork.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_616_beef.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_616_beef.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_617_beef.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_617_beef.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_618_fish.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_618_fish.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_619_fish.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_619_fish.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_620_salmon.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_620_salmon.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_621_mushroom.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_621_mushroom.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_634_tea.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_634_tea.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_69.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_69.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_7.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_7.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_70.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_70.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_71.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_71.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_73.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_73.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_74.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_74.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_75.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_75.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_76.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_76.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_77.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_77.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_78.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_78.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_79.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_79.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_7_30_cssstyle.css",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_7_30_cssstyle.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_7_Product_7_挪威烤鯖魚.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_7_Product_7_挪威烤鯖魚.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_7_挪威烤鯖魚.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_7_挪威烤鯖魚.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_81.webp",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_81.webp"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_83.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_83.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_9.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_9.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_90.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_90.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_92.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_92.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_93.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_93.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Product_94.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Product_94.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_1.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_1.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_10.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_10.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_11.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_11.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_12.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_12.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_13.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_13.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_14.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_14.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_15_kinkin.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_15_kinkin.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_16_heathSkin.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_16_heathSkin.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_17_oilFree.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_17_oilFree.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_18_something.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_18_something.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_19_nakedBox.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_19_nakedBox.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_1_表5\u3000工業及服務業受僱員工全年總薪資統計－按年齡及教育程度分",
+      "PackagePath": "staticwebassets\\image\\Store"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_2.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_2.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_20_grace.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_20_grace.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_21.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_21.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_22.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_22.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_23.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_23.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_24.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_24.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_25.jpeg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_25.jpeg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_27.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_27.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_29.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_29.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_3.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_3.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_36.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_36.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_37.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_37.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_4.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_4.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_47.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_47.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_5.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_5.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_54.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_54.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_6.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_6.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_63.png",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_63.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_65.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_65.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_7.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_7.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_8.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_8.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\Store\\Store_9.jpg",
+      "PackagePath": "staticwebassets\\image\\Store\\Store_9.jpg"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\logo\\logo_150x150.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logo_150x150.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\logo\\logo_150x150_dark.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logo_150x150_dark.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\logo\\logo_300x150.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logo_300x150.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\logo\\logo_300x150_v2.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logo_300x150_v2.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\image\\logo\\logo_30x30_dark.png",
+      "PackagePath": "staticwebassets\\image\\logo\\logo_30x30_dark.png"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StoreManagementWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.StoreManagementWebsite.props",
+      "PackagePath": "build\\StoreManagementWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.StoreManagementWebsite.props",
+      "PackagePath": "buildMultiTargeting\\StoreManagementWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.StoreManagementWebsite.props",
+      "PackagePath": "buildTransitive\\StoreManagementWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

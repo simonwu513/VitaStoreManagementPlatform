@@ -1,0 +1,496 @@
+﻿@{
+    var productsWithCategories = ViewData["productsWithCategories"] as IEnumerable<dynamic>;
+    var categoriesInUse = ViewData["categoriesInUse"] as IEnumerable<dynamic>;
+}
+
+@section MyStyle{
+    <style>
+       .bg-block {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px dashed black;
+        }
+
+        .edit-categories-btns{
+            display: none;
+        }
+
+        .delete-category-btn{
+            display: none;
+        }
+
+        .cancel-delete-categories-btn{
+            display: none;
+        }
+
+        </style>
+}
+
+<p>歡迎回來，@ViewData["StoreName"]！</p>
+<h2>商品增刪查改</h2>
+
+<div class="bg-block" >
+    <h4>商品分類管理</h4>
+    <form method="post" action="/Products/ProductCategoriesEdit" class="needs-validation" id="CategoriesEditForm" novalidate>
+    <div class="d-flex flex-column">
+        <div class="text-end cud-categories-btns">
+            <button type="button" class="btn btn-info" id="btnEditCategories">編輯分類</button>
+            <button type="button" class="btn btn-warning" id="btnDeleteCategory">刪除分類</button>
+                <button type="button" class="btn btn-success" id="btnCreateCategory" 
+                        data-bs-toggle="modal" data-bs-target="#EnsureCreateCategoryModal">
+                    新增分類
+                </button>
+        </div>
+        <div>           
+            <ul class="row list-unstyled">
+                @{
+                    foreach (var category in categoriesInUse)
+                {
+                     <li class="col-3 text-center">
+                         <span class="fs-5 category-name-label">@category.CategoryName
+                             <button type="button" class="text-danger delete-category-btn border-1 bg-transparent" data-category-id="@category.CategoryId"
+                                     data-bs-toggle="modal" data-bs-target="#EnsureDeleteCategoryModal">
+                                 <i class="fa-solid fa-trash"></i>
+                             </button>
+                     </span>
+                         <div class="form-group d-none">
+                             <div class="d-grid gap-2">
+                                       <input type="hidden" name="clientProductCategories[@category.CPidx].CategoryId" value="@category.CategoryId" />
+                                       <input type="text" name="clientProductCategories[@category.CPidx].CategoryName" value="@category.CategoryName" class="form-control" />
+                                 <div class="invalid-feedback"></div>
+                             </div>
+                         </div>
+                     </li>
+
+                }
+                }
+            </ul>
+            <div class="text-center edit-categories-btns">
+                <input type="submit" value="編輯完成" class="btn btn-outline-success" id="btnSaveCategories" />
+                <a href="/Products/Products" class="btn btn-outline-danger">取消編輯</a>
+            </div>
+                <div class="text-center cancel-delete-categories-btn">
+                    <a href="/Products/Products" class="btn btn-outline-danger">取消刪除</a>
+                </div>
+        </div>
+           
+    </div>
+</form>
+</div>
+<div class="bg-block">
+    <h4>商品管理</h4>    
+    <div class="float-end">
+        <a  href="/Products/Create" class="btn btn-primary btn-lg">新增商品</a>
+    </div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">
+                    #
+                </th>
+                <th scope="col">
+                    圖片
+                </th>
+                <th scope="col">
+                    名稱
+                </th>
+                <th scope="col">
+                    分類
+                </th>
+                <th scope="col">
+                    價格
+                </th>
+                <th scope="col">
+                    庫存
+                </th>
+                <th scope="col">
+                    上架狀態
+                </th>
+                <th scope="col">
+                    商品操作
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in productsWithCategories)
+            {
+                <tr>
+                    <th scope="row">
+                        <input type="hidden" name="clientProducts[@product.pidx].ProductId" value="@product.ProductId" />
+                    </th>                    
+                    <td class="align-middle">
+                        @if (product.ProductImage!= null && product.ProductImage!= "")
+                        {
+                            <img src="/@product.ProductImage" alt="@product.ProductName" class="object-fit-cover" width="50" />
+                        }
+                        else
+                        {
+                            <img src="~/image/logo/logo_150x150_dark.png" alt="defaultProductImage" class="object-fit-cover" width="50" />
+                        }
+                    </td>
+                    <td class="align-middle">
+                        @product.ProductName
+                    </td>
+                    <td class="align-middle">
+                        @product.CategoryName
+                        <input type="hidden" name="clientProducts[@product.pidx].CategoryId" value="@product.CategoryId" />
+                        <span class="category-on-delete-label d-none">@product.CategoryOnDelete</span>
+                    </td>
+                    <td class="align-middle">
+                        @product.ProductUnitPrice.ToString("C0")
+                    </td>
+                    <td class="align-middle">
+                        @product.ProductUnitsInStock
+                    </td>
+                    <td class="align-middle">
+                        <div class="form-check form-switch">
+
+                            <input type="checkbox" name="clientProducts[@product.pidx].ProductOnSell" class="form-check-input"
+                                @(product.ProductOnSell == true ? "checked" : "") />
+                        </div>
+                    </td>
+                    <td class="align-middle">
+                        <a href="/Products/Edit/@product.ProductId" class="btn btn-success btn-sm" type="submit">編輯</a>
+                        <a href="/Products/Copy/@product.ProductId" type="submit" class="btn btn-danger btn-sm">複製</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+<!-- Ensure Delete Category Modal -->
+<div class="modal fade" id="EnsureDeleteCategoryModal" tabindex="-1" aria-labelledby="EnsureDeleteCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form method="post" action="/Products/ProductCategoriesDelete/" id="ProductCategoryDeleteForm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="EnsureDeleteCategoryModalLabel">刪除商品分類</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" value="確定刪除" class="btn btn-primary" id="btnEnsureDeleteCategory" />
+                    <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消刪除</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Ensure Create Category Modal -->
+<div class="modal fade" id="EnsureCreateCategoryModal" tabindex="-1" aria-labelledby="EnsureCreateCategoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form method="post" action="/Products/ProductCategoriesCreate/" id="ProductCategoryCreateForm" class="needs-validation" novalidate>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="EnsureCreateCategoryModalLabel">新增商品分類</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="CategoryName">設定分類名稱</label>
+                        <input type="text" class="form-control" id="CreateCategoryName" name="CategoryNCreate" required>
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" value="確定新增" class="btn btn-primary" id="btnEnsureCreateCategory" />
+                    <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消新增</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Alert Message for Switch Modal -->
+<div class="modal fade" id="AlertMessageModal" tabindex="-1" aria-labelledby="AlertMessageModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="AlertMessageModalLabel">提示訊息</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉視窗</a>
+                </div>
+            </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            let PastcategoriesNames = [];
+            $('input[name*="CategoryName"]').each(function () {
+                PastcategoriesNames.push($(this).val());
+            });
+
+
+            // 編輯 商品分類
+            $('#btnEditCategories').on("click", function () {
+               
+                $('.edit-categories-btns').show();
+                $('.cud-categories-btns button').prop("disabled", true);
+
+                $('.category-name-label').each(function () {
+                    $(this).hide();
+                })
+                $('input[name*="CategoryName"]').each(function () {
+                    $(this).closest('.form-group').removeClass("d-none").addClass("d-flex");
+                });
+            });
+
+            $('#btnSaveCategories').on("click", function (event) {
+                var allValidated = true;
+                const NewCategoryNames = [];               
+
+                $('input[name*="CategoryName"]').each(function () {
+                    NewCategoryNames.push($(this).val());
+                });
+
+                $('input[name*="CategoryName"]').each(function (idx) {
+                    var PastCategoriesNamesExcludigCurrent = structuredClone(PastcategoriesNames);
+                    var NewCategoryNamesExcludigCurrent = structuredClone(NewCategoryNames);
+
+                    PastCategoriesNamesExcludigCurrent.splice(idx, 1);
+                    NewCategoryNamesExcludigCurrent.splice(idx, 1);
+                    var NewCategoryName = $(this).val();
+
+                    // console.log(PastCategoriesNamesExcludigCurrent);
+                    // console.log(NewCategoryNamesExcludigCurrent);
+                    // console.log(NewCategoryNames);
+
+                    if (NewCategoryName == null || NewCategoryName == "") {
+                        allValidated = false;
+                        $(this).removeClass("is-valid").addClass("is-invalid");
+                        $(this).next().append("<div>請輸入分類名稱</div>");
+                    } else if (PastCategoriesNamesExcludigCurrent.includes(NewCategoryName)) {
+                        allValidated = false;
+                        $(this).removeClass("is-valid").addClass("is-invalid");
+                        $(this).next().append("<div>分類名稱和舊有列表其他名稱相同</div>");
+                    } else if (NewCategoryNamesExcludigCurrent.includes(NewCategoryName)) {
+                        allValidated = false;
+                        $(this).removeClass("is-valid").addClass("is-invalid");
+                        $(this).next().append("<div>分類名稱和新列表其他名稱相同</div>");
+                    } else {
+                        $(this).removeClass("is-invalid").addClass("is-valid");
+                    }
+                });
+
+                if (allValidated) {
+                    $('#CategoriesEditForm').addClass('was-validated');                    
+                    $('#CategoriesEditForm').submit();
+                    // $('.edit-categories-btns').hide();
+                    // $('.cud-categories-btns button').prop("disabled", false);
+                    // $('.category-name-label').each(function () {
+                    //     $(this).show(); //讓categoryName label顯示
+                    //     $(this).next().removeClass("d-flex").addClass("d-none"); //讓categoryName input整個區塊隱藏
+                    //     console.log($(this).next().find('input[name*="CategoryName"]'))
+                    //     $(this).next().find('input[name*="CategoryName"]').removeClass("is-valid"); //移除掉is.valid標籤
+
+
+                    //     $(this).find('.invalid-feedback').empty(); //移除掉invalid-feedback的內容
+                    //     $(this).find('.invalid-feedback').hide(); //隱藏invalid-feedback
+
+                    //})
+
+                } else {
+                    $('.invalid-feedback').show();
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+
+            });
+
+            // 刪除 商品分類
+            $('#btnDeleteCategory').on("click", function () {
+                $('.cud-categories-btns button').prop("disabled", true);
+                $('.delete-category-btn').each(function () {
+                    $(this).show();
+                });
+                $('.cancel-delete-categories-btn').show();
+            });
+
+            $('.delete-category-btn').on("click", function () {
+                const categoryId = $(this).data('category-id'); //可以得到data-category-id裡面的值
+                $('#ProductCategoryDeleteForm').attr('action', `/Products/ProductCategoriesDelete/${categoryId}`);
+                $('#ProductCategoryDeleteForm').prepend(`<input type="hidden" name="CategoryId" value="${categoryId}" />`);
+                $('#EnsureDeleteCategoryModal .modal-body').html(
+                        `<p>確定要刪除分類: ${$(this).closest('li').find('.category-name-label').text()}?</p>`);
+
+            });
+            
+
+            
+            // 新增 商品分類
+            $('#ProductCategoryCreateForm').on("submit", function (event) {                               
+                var allValidated = true;
+                const NewCategoryName = $('#CreateCategoryName').val();
+
+                if (NewCategoryName == null || NewCategoryName == "") {
+                    allValidated = false;
+                    $('#CreateCategoryName').removeClass("is-valid").addClass("is-invalid");
+                    $('#CreateCategoryName').next().append("<div>分類名稱不可為空白</div>");
+                } else if (PastcategoriesNames.includes(NewCategoryName)) {
+                    allValidated = false;
+                    $('#CreateCategoryName').removeClass("is-valid").addClass("is-invalid");
+                    $('#CreateCategoryName').next().append("<div>分類名稱和舊有列表其他名稱相同</div>");
+                } else {
+                    $('#CreateCategoryName').removeClass("is-invalid").addClass("is-valid");
+                }
+                
+
+                if (allValidated) {
+                    $('#ProductCategoryCreateForm').addClass('was-validated');
+                    $('#ProductCategoryCreateForm').submit();
+                    //$('#EnsureCreateCategoryModal').modal('hide');
+                } else {
+                    $('#CreateCategoryName').next().show();
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+            });
+
+            // 彈紐 調整商品上架狀態
+            $('input[name*="ProductOnSell"]').on("change", function () {
+                $('#AlertMessageModal .modal-body').empty();
+                var ProductId = $(this).closest('tr').find('input[name*="ProductId"]').val();
+                var ProductOnSell = $(this).is(':checked') ? "true" : "false";
+                var categoryId = $(this).closest('tr').find('input[name*="CategoryId"]').val();
+                var url = "/Products/ProductsOnSellSwitch";
+                var data = {
+                    "ProductId": ProductId,
+                    "ProductOnSell": ProductOnSell
+                }
+                console.log(data);
+
+
+                if ($(this).is(':checked')) {
+                    var CateogryOnDelete = $(this).closest('tr').find('.category-on-delete-label').text();
+                    if (CateogryOnDelete == "True") {
+                        $('#AlertMessageModal .modal-body').html(
+                            `<p>此商品對應的分類已被刪除，無法上架</p>`);
+                        $('#AlertMessageModal').modal('show');
+                        $(this).prop("checked", false);
+                    }
+                    else {
+                        console.log('blcok2')
+                        //ajax法
+                        $.ajax({
+                            url: url,
+                            data: data,
+                            type: "POST",
+                            success: function (result) {
+                                if (result.success) {
+                                    $('#AlertMessageModal .modal-body').html(
+                                        `<p>${result.message}</p>`);
+                                    $('#AlertMessageModal').modal('show');
+                                } else {
+                                    $('#AlertMessageModal .modal-body').html(
+                                        `<p>${result.message}</p>`);
+                                    $('#AlertMessageModal').modal('show');
+                                    $(this).prop("checked", false);
+                                }
+                            },
+                            error: function (xhr, status, error) {
+                                $('#AlertMessageModal .modal-body').html(
+                                    `<p>${error}</p>`);
+                                $('#AlertMessageModal').modal('show');
+                                $(this).prop("checked", false);
+                            }
+                        });
+
+                        // fetch(url, {
+                        //     method: "POST",
+                        //     headers: {
+                        //         'Accept': 'application/json',
+                        //         "Content-Type": "application/json"
+                        //     },
+                        //     body: JSON.stringify({
+                        //         "ProductId": $(this).closest('tr').find('input[name*="ProductId"]').val(),
+                        //         "ProductOnSell": $(this).is(':checked') ? "true" : "false"
+                        //     })
+                        // })
+                        // .then(response => {
+                        //     if (!response.ok) {
+                        //         throw new Error('Network response was not ok ' + response.statusText);
+                        //     }
+                        //     return response.json();
+                        // })
+                        // .then(message => {
+                        //     console.log(message);
+                        // })
+                        // .catch(error => {
+                        //     console.error('Fetch error:', error);
+                        //     // 處理錯誤，例如恢復 UI 狀態
+                        // });
+
+                    }    
+                } else {
+                    console.log('blcok3')
+                    //ajax法
+                    $.ajax({
+                            url: url,
+                            data: data,
+                            type: "POST",
+                            success: function (result) {
+                                if (result.success) {
+                                    $('#AlertMessageModal .modal-body').html(
+                                        `<p>${result.message}</p>`);
+                                    $('#AlertMessageModal').modal('show');
+                                } else {
+                                    $('#AlertMessageModal .modal-body').html(
+                                        `<p>${result.message}</p>`);
+                                    $('#AlertMessageModal').modal('show');
+                                    $(this).prop("checked", true);
+                                }
+                            }, 
+                            error: function (xhr, status, error) {
+                                $('#AlertMessageModal .modal-body').html(
+                                    `<p>${error}</p>`);
+                                $('#AlertMessageModal').modal('show');
+                                $(this).prop("checked", true);
+                            }
+                     });
+
+
+            // fetch(url, {
+            //             method: "POST",
+            //             headers: {
+            //                 'Accept': 'application/json',
+            //                 "Content-Type": "application/json"
+            //             },
+            //             body: JSON.stringify({
+            //                 "ProductId": $(this).closest('tr').find('input[name*="ProductId"]').val(),
+            //                 "ProductOnSell": $(this).is(':checked') ? "true" : "false"
+            //             })
+            //             })
+            //             .then(response => {
+            //                 if (!response.ok) {
+            //                     throw new Error('Network response was not ok ' + response.statusText);
+            //                 }
+            //                 return response.json();
+            //             })
+            //             .then(message => {
+            //                 console.log(message);
+            //             })
+            //             .catch(error => {
+            //                 console.error('Fetch error:', error);
+            //                 // 處理錯誤，例如恢復 UI 狀態
+            //             });
+                    
+
+                }
+            });
+                  
+                
+
+        });
+    </script>
+}

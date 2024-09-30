@@ -1,0 +1,68 @@
+﻿@* @model List<StoreManagmentWebsite.Models.Store> *@
+
+@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+
+<div class="text-center">
+    <h1 class="display-4">歡迎來到店家管理平台</h1>
+
+    <h3>請輸入店家帳號密碼</h3>
+
+    <div class="row justify-content-center">
+        <div class="col-4">
+        <form method="post" action="/Home/Index">
+
+            <div class="form-group">
+                    <label class="control-label float-start" for="StoreAccountNumber">帳號</label>
+                <input class="form-control" type="text" id="StoreAccountNumber"
+                       name="StoreAccountNumber" value="" />
+            </div>
+            <div class="form-group">
+                    
+                    <label class="control-label float-start" for="StorePassword">密碼</label>
+                    <div class="position-relative">
+                        <input class="form-control" type="password" id="StorePassword" style="z-index: 10;"
+                            name="StorePassword" value=""/ >
+                        <a class="position-absolute top-50 start-100 translate-middle" style="margin-top: 13px; margin-left: -18px; z-index: 1000; cursor: pointer;" onclick="togglePasswordVisibility(true)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </a>
+                        <a class="position-absolute top-50 start-100 translate-middle d-none" style=" z-index: 1000;margin-top: 13px; margin-left: -18px; cursor: pointer;" onclick="togglePasswordVisibility(false)">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                
+            </div>
+
+            <div class="form-group pt-3">
+                <input type="submit" value="確定" class="btn btn-outline-primary" /> |
+                <a href="/Home/Index" class="btn btn-outline-info">取消</a>
+            </div>
+               
+            <div class="pt-3">
+                    <p class="text-danger"> @(TempData["LoginErrorMessage"] ?? "")</p>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        function togglePasswordVisibility(Eye) {
+            if (Eye) {
+                $('#StorePassword').prop('type', 'text');
+                $('.fa-eye-slash').closest('a').addClass('d-none');
+                $('.fa-eye').closest('a').removeClass('d-none');
+            }
+            else{
+                $('#StorePassword').prop('type', 'password');
+                $('.fa-eye-slash').closest('a').removeClass('d-none');
+                $('.fa-eye').closest('a').addClass('d-none');
+
+            }
+        }
+    </script>
+}
+
+

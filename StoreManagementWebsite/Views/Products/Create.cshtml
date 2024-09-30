@@ -1,0 +1,149 @@
+﻿@{
+    var categoriesInUse = ViewData["categoriesInUse"] as IEnumerable<dynamic>;
+}
+
+@section MyStyle {
+    <style>
+        .product-image {
+            height: 400px;
+        }
+    </style>
+}
+
+<h1>建立新品項</h1>
+<hr />
+<div class="row">
+    <div class="col-6">
+        <div class="product-image d-flex justify-content-center flex-column">
+            <img src="~/image/logo/logo_300x150_v2.png" class="mx-auto d-block">
+            <h4 class="text-center">請置入商品圖片</h4>
+
+        </div>
+    </div>
+    <div class="col-6">
+        <form method="post" action="/Products/Create" class="needs-validation" enctype="multipart/form-data" id="CreateProductForm" novalidate>
+            <input type="hidden" name="ProductId" value="" />
+            <div class="form-group">
+                <label class="control-label" for="ProductName">名稱<span class="text-danger fw-bolder">*</span></label>
+                <input type="text" class="form-control" id="ProductName" name="ProductName" value="" required>
+                <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="CategoryName">分類<span class="text-danger fw-bolder">*</span></label>
+                <select class="form-select" id="CategoryName" name="CategoryId" required>
+                    @{
+                        foreach (var category in categoriesInUse)
+                        {
+                            <!option value="@category.CategoryId">@category.CategoryName</!option>
+                        }
+                    }
+                </select>
+
+                <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="ProductUnitPrice">價格<span class="text-danger fw-bolder">*</span></label>
+                <input type="number" class="form-control" id="ProductUnitPrice" name="ProductUnitPrice" value="" required>
+                <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="ProductUnitsInStock">庫存量<span class="text-danger fw-bolder">*</span></label>
+                <input type="number" class="form-control" id="ProductUnitsInStock" name="ProductUnitsInStock" value="" required>
+                <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group">
+                <label class="form-label d-block" for="ProductImage">圖片</label>
+                <input type="file" class="form-control" id="ProductImage" name="ProductImage" accept="image/*">
+                <div class="invalid-feedback"></div>
+            </div>
+            <div class="form-group text-center mt-4">
+                <input type="submit" value="確定" class="btn btn-outline-primary" />
+                <a href="/Products/Products" class="btn btn-outline-info">取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function checkValidityCreateForm() {
+            var allValidated = true;
+
+
+            // 檢查商品名稱
+            if ($("#ProductName").val().trim() == "") {
+                $("#ProductName").removeClass("is-valid").addClass("is-invalid");
+                allValidated = false;
+                $("#ProductName").closest(".form-group").find(".invalid-feedback").text("商品名稱不能為空");
+            }
+            else {
+                $("#ProductName").removeClass("is-invalid").addClass("is-valid");
+            }
+
+
+            // 檢查圖片格式
+            if ($("#ProductImage").val() != "") {
+                var productImageType = $("#ProductImage")[0].files[0].type.toLowerCase();
+                if (productImageType != "image/jpeg" && productImageType != "image/png") {
+                    $("#ProductImage").removeClass("is-valid").addClass("is-invalid");
+                    allValidated = false;
+                    $("#ProductImage").closest(".form-group").find(".invalid-feedback").text("請提供jpg或png格式的圖片檔案");
+                } else {
+                    $("#ProductImage").removeClass("is-invalid").addClass("is-valid");
+                }
+            }
+
+
+            // 檢查價格不得為空，且必須大於0
+            var productUnitPrice = $("#ProductUnitPrice").val();
+            if (productUnitPrice == "" || productUnitPrice == null) {
+                $("#ProductUnitPrice").removeClass("is-valid").addClass("is-invalid");
+                allValidated = false;
+                $("#ProductUnitPrice").closest(".form-group").find(".invalid-feedback").text("價格不能為空");
+            } else if (productUnitPrice <= 0) {
+                $("#ProductUnitPrice").removeClass("is-valid").addClass("is-invalid");
+                allValidated = false;
+                $("#ProductUnitPrice").closest(".form-group").find(".invalid-feedback").text("價格必須大於0");
+            }
+            else {
+                $("#ProductUnitPrice").removeClass("is-invalid").addClass("is-valid");
+            }
+
+            // 檢查庫存量必須大於等於0
+            var productUnitsInStock = $("#ProductUnitsInStock").val();
+            if (productUnitsInStock == "" || productUnitsInStock == null) {
+                $("#ProductUnitsInStock").removeClass("is-valid").addClass("is-invalid");
+                allValidated = false;
+                $("#ProductUnitsInStock").closest(".form-group").find(".invalid-feedback").text("庫存量不能為空");
+            }
+            else if (productUnitsInStock < 0) {
+                $("#ProductUnitsInStock").removeClass("is-valid").addClass("is-invalid");
+                allValidated = false;
+                $("#ProductUnitsInStock").closest(".form-group").find(".invalid-feedback").text("庫存量必須大於等於0");
+            }
+            else {
+                $("#ProductUnitsInStock").removeClass("is-invalid").addClass('is-valid');
+            }
+
+            return allValidated;
+        }
+
+        $(document).ready(function () {
+            $("#CreateProductForm").on("submit", function (event) {
+
+                if (checkValidityCreateForm() === false) {
+                    $('.invalid-feedback').show();
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                else {
+                    $('#CreateProductForm').addClass('was-validated');
+                    $('#CreateProductForm').submit();
+                }
+
+            });
+        });
+
+
+    </script>
+}
