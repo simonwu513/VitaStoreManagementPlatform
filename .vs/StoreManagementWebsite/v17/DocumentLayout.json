@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\",
+  "WorkspaceRootPath": "C:\\ASP NET\u4F5C\u54C1\u96C6\\VitaStoreManagementPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|c:\\asp net\u4F5C\u54C1\u96C6\\storemanagementwebsite\\storemanagementwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|solutionrelative:storemanagementwebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|c:\\asp net\u4F5C\u54C1\u96C6\\vitastoremanagementplatform\\storemanagementwebsite\\views\\orders\\pastorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|solutionrelative:storemanagementwebsite\\views\\orders\\pastorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|c:\\asp net\u4F5C\u54C1\u96C6\\storemanagementwebsite\\storemanagementwebsite\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|solutionrelative:storemanagementwebsite\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|c:\\asp net\u4F5C\u54C1\u96C6\\storemanagementwebsite\\storemanagementwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|solutionrelative:storemanagementwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|c:\\asp net\u4F5C\u54C1\u96C6\\storemanagementwebsite\\storemanagementwebsite\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|solutionrelative:storemanagementwebsite\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|c:\\asp net\u4F5C\u54C1\u96C6\\vitastoremanagementplatform\\storemanagementwebsite\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A141C0BF-652E-4579-8755-994142EA6920}|StoreManagementWebsite\\StoreManagementWebsite.csproj|solutionrelative:storemanagementwebsite\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 197,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "StoreManagementWebsite\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "StoreManagementWebsite\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAkwI0AAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T13:35:17.754Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -64,41 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "StoreManagementWebsite\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "StoreManagementWebsite\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T17:34:42.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StoreManagementWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StoreManagementWebsite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "DocumentIndex": 0,
+              "Title": "PastOrders.cshtml",
+              "DocumentMoniker": "C:\\ASP NET\u4F5C\u54C1\u96C6\\VitaStoreManagementPlatform\\StoreManagementWebsite\\Views\\Orders\\PastOrders.cshtml",
+              "RelativeDocumentMoniker": "StoreManagementWebsite\\Views\\Orders\\PastOrders.cshtml",
+              "ToolTip": "C:\\ASP NET\u4F5C\u54C1\u96C6\\VitaStoreManagementPlatform\\StoreManagementWebsite\\Views\\Orders\\PastOrders.cshtml",
+              "RelativeToolTip": "StoreManagementWebsite\\Views\\Orders\\PastOrders.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwCMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T17:18:33.182Z",
+              "WhenOpened": "2024-10-02T05:53:34.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "StoreManagementWebsite\\Controllers\\StatisticsController.cs",
-              "ToolTip": "C:\\ASP NET\u4F5C\u54C1\u96C6\\StoreManagementWebsite\\StoreManagementWebsite\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "StoreManagementWebsite\\Controllers\\StatisticsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\ASP NET\u4F5C\u54C1\u96C6\\VitaStoreManagementPlatform\\StoreManagementWebsite\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "StoreManagementWebsite\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\ASP NET\u4F5C\u54C1\u96C6\\VitaStoreManagementPlatform\\StoreManagementWebsite\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "StoreManagementWebsite\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T16:01:11.946Z",
+              "WhenOpened": "2024-10-02T05:53:11.283Z",
               "EditorCaption": ""
             }
           ]

@@ -1,14 +1,65 @@
 # Vita線上訂餐平台 - 後台店家管理系統
 
-
 ### 專案簡介
-2024.02.16 ~ 2024.07.04 資展國際「智慧應用微軟C#工程師就業養成班」的團體期末專案，結合前端(Html、CSS、javaScript)、資料庫(SQL server)以及微軟C#、ASP .NET MVC後端架構設計以「健康餐訂餐平台」為主題的網站。
+2024.02.16 ~ 2024.07.04 資展國際「智慧應用微軟C#工程師就業養成班」的團體期末專案，
+結合前端(Html、CSS、javaScript)、資料庫(SQL server)
+以及微軟C#、ASP .NET MVC後端架構設計以「健康餐訂餐平台」為主題的網站。
 
-這邊只呈現本人實作頁面的說明，完整的專案程式碼須進入 [msit59-Vita](https://github.com/ezMarshall/msit59-vita.git) 查看。
+平台分為前台客戶訂餐網頁，和後台店家管理系統。本人在成果發表中負責設計及實作後台系統的部分頁面。
 
-本人實作的頁面主要在店家後台的管理系統，店家可藉由【菜單管理】設定可供訂餐的品項、【店家資訊】設定營業時間、電話等基本資訊。首頁的統計圖表可檢視近一週客人對店家商品的評論、近一個月的營運表現（諸如各商品銷售額比較、各營業日來客量變化）。暫停接單功能可供店家即時終止前台客戶下單。
+本文件為個人在發表成果發表之後，修正不完善之處，用另外一種UI介面重製原專案的網頁。
+為了區分兩者，以下分別用「本專案」、「msit59-Vita 團體專案」兩個段落說明各自完成的功能以及頁面呈現。
 
-### 後臺完成功能
+原團隊完整的專案程式碼須進入 [msit59-Vita](https://github.com/ezMarshall/msit59-vita.git) 查看。
+
+
+### 使用技術
+
+- 設計工具：Figma、draw.io、Canva
+- 前端技術：HTML、CSS、JavaScript、jQuery、Ajax、RESTful API
+- 前端框架：Bootstrap 5、SASS/SCSS、Chart.js
+- 後端技術：C#、ASP.NET
+- 資料庫：SSMS、SQL Server、PowerBI
+- 版本控制：GitHub、Git
+- 撰寫程式：Visual Studio 2022、Visual Studio Code
+
+
+### 本專案
+
+## 完成功能 & 簡單頁面呈現
+
+- **首頁 / 今天網路訂單**
+
+點選下拉式箭頭，可檢視網路下單的訂單明細，也可執行以下訂單操作:
+- 接單: 接單後訂單狀態改為「製作中」，完成後可點選「出餐」按鈕
+- 退單: 退單後會在訂單狀態改成顯示「已退單」
+- 出餐: 出餐後等待外送或客戶自取，成功交貨後可點選「完成」按鈕
+- 完成
+
+![650x430_default (1)]()
+
+- **店家營運資訊**
+點選編輯icon可修改指定的店家資訊欄位
+
+![680x385_default (1)]()
+
+- **商品增刪查改**
+商品分類: 編輯/刪除/新增
+商品管理: 編輯/新增/複製(基於舊商品資訊新增商品)/上下架(無法直接刪除商品，但可下架商品讓客戶無法看到)
+
+![650x430_default (1)]()
+
+- **過往訂單紀錄**
+可篩選指定「客戶名稱、訂單編號、商品與數量」、「客戶或店家評語」、「評分星級」的訂單明細。
+
+若客戶有真對該筆訂單建立評論，可點「檢視」按鈕查閱。若店家尚未回覆，也可點擊「回覆」按鈕填寫回覆內容。
+
+![750x440_default (1)]()
+
+
+### msit59-Vita 團體專案 
+
+## 完成功能 & 簡單頁面呈現
 
 - 管理員登入
 
@@ -50,18 +101,7 @@ Bootstrap 5 互動視窗(Modal)配置畫面。
 - 評論管理：查看及回覆評論
 
 
-### 使用技術
-
-- 設計工具：Figma、draw.io、Canva
-- 前端技術：HTML、CSS、JavaScript、jQuery、Ajax、RESTful API
-- 前端框架：Bootstrap 5、SASS/SCSS、Chart.js
-- 後端技術：C#、ASP.NET
-- 資料庫：SSMS、SQL Server、PowerBI
-- 版本控制：GitHub、Git
-- 撰寫程式：Visual Studio 2022、Visual Studio Code
-
-
-### 詳細專案負責內容
+## 詳細專案負責內容
 功能設計：後台 > 首頁、登入頁面、菜單管理、店家資訊
 
 程式撰寫：後台 > 首頁、菜單管理、店家資訊
@@ -72,26 +112,12 @@ Bootstrap 5 互動視窗(Modal)配置畫面。
 企劃書：創作理念發想、前言和市場分析彙整與撰寫
 資料庫建置與彙整、生成資料表內容
 
-### 簡單頁面呈現
-
-- 首頁功能
-
-![500x250_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%8D%B3%E6%99%82%E8%A8%82%E5%96%AE%E8%B3%87%E8%A8%8A.png)
-
-![500x330_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%89%8D%E9%80%B1%E8%A9%95%E8%AB%96%E5%88%86%E6%9E%90.png)
-
-![700x248_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E7%B5%B1%E8%A8%88%E5%9C%96%E8%A1%A8.png)
 
 
-- 菜單管理
+### 附註
 
-![650x350_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E8%8F%9C%E5%96%AE%E7%AE%A1%E7%90%86%E9%A0%81%E9%9D%A2.png)
+資料庫建置方式：執行SQL指令檔「sql for StoreManagementPlatform」
 
-
-- 店家資訊 & 網頁前端配置
-
-![640x336_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%BA%97%E5%AE%B6%E8%B3%87%E8%A8%8A%E9%A0%81%E9%9D%A2%E8%88%87%E7%B6%B2%E9%A0%81%E9%85%8D%E7%BD%AE.png)
-
-
-## 附註
-PowerPoint投影片放映可呈現各頁面GIF動圖。
+系統登入帳密：
+Vita0042
+V3WV1rfk0yYEUV

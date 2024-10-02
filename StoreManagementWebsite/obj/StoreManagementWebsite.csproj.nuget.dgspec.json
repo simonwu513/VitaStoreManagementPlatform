@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\StoreManagementWebsite.csproj": {}
+    "C:\\ASP NET作品集\\VitaStoreManagementPlatform\\StoreManagementWebsite\\StoreManagementWebsite.csproj": {}
   },
   "projects": {
-    "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\StoreManagementWebsite.csproj": {
+    "C:\\ASP NET作品集\\VitaStoreManagementPlatform\\StoreManagementWebsite\\StoreManagementWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\StoreManagementWebsite.csproj",
+        "projectUniqueName": "C:\\ASP NET作品集\\VitaStoreManagementPlatform\\StoreManagementWebsite\\StoreManagementWebsite.csproj",
         "projectName": "StoreManagementWebsite",
-        "projectPath": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\StoreManagementWebsite.csproj",
+        "projectPath": "C:\\ASP NET作品集\\VitaStoreManagementPlatform\\StoreManagementWebsite\\StoreManagementWebsite.csproj",
         "packagesPath": "C:\\Users\\6k3r7\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP NET作品集\\StoreManagementWebsite\\StoreManagementWebsite\\obj\\",
+        "outputPath": "C:\\ASP NET作品集\\VitaStoreManagementPlatform\\StoreManagementWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

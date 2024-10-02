@@ -19,7 +19,7 @@
     <form href="/Orders/PastOrders" method="get">
         <div class="form-actions no-color d-flex justify-content-start">
             <input type="text" name="searchStringForOrderInfo" value="@ViewData["currentFilterForOrderInfo"]" placeholder="搜尋客戶名稱、訂單編號、商品與數量" class="form-control" style="width: 300px" />
-            <input type="text" name="searchStringForCustomerReview" value="@ViewData["currentFilterForCustomerReview"]" placeholder="搜尋客戶或店家回覆" class="form-control  ms-2" style="width: 300px" />
+            <input type="text" name="searchStringForCustomerReview" value="@ViewData["currentFilterForCustomerReview"]" placeholder="搜尋客戶或店家評語" class="form-control  ms-2" style="width: 300px" />
             <div class="form-group ms-2" style="width: 200px">
                 <select class="form-select" id="ReviewRating" name="searchStringForReviewRating">
                     <!option value="" @(ViewData["currentFilterReviewRating"] == null ? "selected" : "")>請選擇評分星級</!option>
@@ -33,7 +33,7 @@
                 </select>
             </div>
             <div class=" ms-2">
-                <input type="submit" value="搜尋" class="btn btn-success" /> |  <a href="/Orders/PastOrders" class="btn btn-warning">清除</a>
+                <input type="submit" value="篩選" class="btn btn-success" /> |  <a href="/Orders/PastOrders" class="btn btn-warning">清除</a>
             </div>
         </div>
     </form>
