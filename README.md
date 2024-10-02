@@ -36,25 +36,25 @@
 - 出餐: 出餐後等待外送或客戶自取，成功交貨後可點選「完成」按鈕
 - 完成
 
-![650x430_default (1)]()
+![650x430_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E9%A6%96%E9%A0%81.png)
 
 - **店家營運資訊**
 點選編輯icon可修改指定的店家資訊欄位
 
-![680x385_default (1)]()
+![680x385_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%BA%97%E5%AE%B6%E8%B3%87%E8%A8%8A.png)
 
 - **商品增刪查改**
 商品分類: 編輯/刪除/新增
 商品管理: 編輯/新增/複製(基於舊商品資訊新增商品)/上下架(無法直接刪除商品，但可下架商品讓客戶無法看到)
 
-![650x430_default (1)]()
+![650x430_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E5%95%86%E5%93%81%E8%A8%AD%E5%AE%9A.png)
 
 - **過往訂單紀錄**
 可篩選指定「客戶名稱、訂單編號、商品與數量」、「客戶或店家評語」、「評分星級」的訂單明細。
 
 若客戶有真對該筆訂單建立評論，可點「檢視」按鈕查閱。若店家尚未回覆，也可點擊「回覆」按鈕填寫回覆內容。
 
-![750x440_default (1)]()
+![750x440_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E6%AD%B7%E5%8F%B2%E8%A8%82%E5%96%AE.png)
 
 
 ### msit59-Vita 團體專案 
