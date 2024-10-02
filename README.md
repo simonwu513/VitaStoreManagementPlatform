@@ -1,6 +1,6 @@
 # Vita線上訂餐平台 - 後台店家管理系統
 
-### 專案簡介
+## 專案簡介
 2024.02.16 ~ 2024.07.04 資展國際「智慧應用微軟C#工程師就業養成班」的團體期末專案，
 結合前端(Html、CSS、javaScript)、資料庫(SQL server)
 以及微軟C#、ASP .NET MVC後端架構設計以「健康餐訂餐平台」為主題的網站。
@@ -13,7 +13,7 @@
 原團隊完整的專案程式碼須進入 [msit59-Vita](https://github.com/ezMarshall/msit59-vita.git) 查看。
 
 
-### 使用技術
+## 使用技術
 
 - 設計工具：Figma、draw.io、Canva
 - 前端技術：HTML、CSS、JavaScript、jQuery、Ajax、RESTful API
@@ -24,9 +24,9 @@
 - 撰寫程式：Visual Studio 2022、Visual Studio Code
 
 
-### 本專案
+## 本專案
 
-## 完成功能 & 簡單頁面呈現
+### 完成功能 & 簡單頁面呈現
 
 - **首頁 / 今天網路訂單**
 
@@ -57,9 +57,9 @@
 ![750x440_default (1)](https://github.com/simonwu513/VitaStoreManagementPlatform/blob/main/%E6%AD%B7%E5%8F%B2%E8%A8%82%E5%96%AE.png)
 
 
-### msit59-Vita 團體專案 
+## msit59-Vita 團體專案 
 
-## 完成功能 & 簡單頁面呈現
+### 完成功能 & 簡單頁面呈現
 
 - 管理員登入
 
@@ -101,7 +101,7 @@ Bootstrap 5 互動視窗(Modal)配置畫面。
 - 評論管理：查看及回覆評論
 
 
-## 詳細專案負責內容
+### 詳細專案負責內容
 功能設計：後台 > 首頁、登入頁面、菜單管理、店家資訊
 
 程式撰寫：後台 > 首頁、菜單管理、店家資訊
@@ -114,7 +114,7 @@ Bootstrap 5 互動視窗(Modal)配置畫面。
 
 
 
-### 附註
+## 附註
 
 資料庫建置方式：執行SQL指令檔「sql for StoreManagementPlatform」
 
